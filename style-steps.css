@@ -1,0 +1,284 @@
+body{
+    background-image: url("img/web background.png") ;
+    
+}
+
+h2{
+    top: 30%;
+    text-align: center;
+    color: rgb(18, 18, 215);
+    font-family: fatfrank, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50pt;
+    font-kerning: auto;
+}
+
+#status{
+    position: fixed;
+    left: 24.8%;
+    right: 24.8%;
+    top: 24%;
+    width: 830px;
+    height: 20px;
+}
+
+#left-button{
+    position: absolute;
+    left: 19%;
+    right: 76%;
+    top: 49%;
+    background-color:  rgb(18, 18, 215);
+    border: none;
+    color: aliceblue;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#right-button{
+    position: absolute;
+    left: 74.5%;
+    right: 20.5%;
+    top: 49%;
+    background-color: rgb(18, 18, 215);
+    border: none;
+    color: aliceblue;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+/* scrool */
+
+
+/* .left{
+    float: left; 
+    position: fixed;
+    left: 15%;
+    top: 45%;
+    width: 150px;
+    height: 100px;
+    border: 2px solid rgb(255, 255, 255);
+   } */
+   
+   .internal{
+    max-width: 100%;
+    max-height: 100%;
+    border: transparent;
+    display: inline-block;
+   }
+   
+   .center{
+    position: relative;
+    align-items: center;
+    position: -ms-page;
+    top: 19%;
+    left: 24.5%;
+    right: 24.5%;
+    width: 830px;
+    height: 500px;
+    transform-origin: 415px 250px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(16, 16, 16);
+    margin: 0px;
+    overflow: hidden;
+    /*will change this to hidden later to deny scolling to user*/
+    white-space: nowrap;
+
+   }
+   
+   /* .right{
+    float: right; 
+    position: fixed;
+    right: 15%;
+    top: 45%;
+    width: 10%;
+    height: 100px;
+    border: 2px solid rgb(255, 255, 255);
+   } */
+
+
+   .navbar a{
+    position: relative;
+    left: 41.5%;
+    right: 41.5%;
+    float: left;
+    text-align: center;
+    font-family: fatfrank, sans-serif;
+    padding: 10px;
+    color: rgb(18, 18, 215);
+    text-decoration: none;
+    font-size: 21px;
+    transition: all 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgb(18, 18, 215);
+    color: aliceblue;
+    
+}
+
+/* DIFFRENT WINDOW SIZES  */
+
+
+
+
+@media screen and (max-width: 1950px)
+{
+    
+#left-button{
+    position: absolute;
+    left: 21%;
+    right: 74%;
+    top: 38%;
+}
+
+#right-button{
+    position: absolute;
+    left: 72.5%;
+    right: 22.5%;
+    top: 38%;
+}
+
+    #status{
+        position: fixed;
+        left: 27.8%;
+        right: 24.5%;
+        top: 13%;
+        width: 830px;
+        height: 20px;
+    }
+    .center{
+        position: relative;
+        align-items: center;
+        /* position: -ms-page; */
+        top: 25%;
+        left: 27.5%;
+        right: 24.5%;
+        width: 830px;
+        height: 500px;
+        transform-origin: 415px 250px;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(16, 16, 16);
+        margin: 0px;
+        overflow: hidden;
+        /*will change this to hidden later to deny scolling to user*/
+        white-space: nowrap;
+    
+       }
+}
+
+
+
+
+
+@media screen and (max-width: 1650px)
+{
+        
+#left-button{
+    position: absolute;
+    left: 18%;
+    right: 77%;
+    top: 38%;
+}
+
+#right-button{
+    position: absolute;
+    left: 76.5%;
+    right: 18.5%;
+    top: 38%;
+}
+
+    #status{
+        position: fixed;
+        left: 24%;
+        right: 24%;
+        top: 13%;
+        width: 830px;
+        height: 20px;
+    }
+
+    .center{
+        position: relative;
+        align-items: center;
+        /* position: -ms-page; */
+        top: 25%;
+        left: 23.5%;
+        right: 24.5%;
+        width: 830px;
+        height: 500px;
+        transform-origin: 415px 250px;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(16, 16, 16);
+        margin: 0px;
+        overflow: hidden;
+        /*will change this to hidden later to deny scolling to user*/
+        white-space: nowrap;
+    
+       }
+
+
+}
+
+
+
+@media screen and (max-width: 1550px)
+{
+    #left-button{
+        position: absolute;
+        left: 18%;
+        right: 77%;
+        top: 58%;
+    }
+    
+    #right-button{
+        position: absolute;
+        left: 81%;
+        right: 13.5%;
+        top: 58%;
+    }
+    
+        #status{
+            position: fixed;
+            left: 24%;
+            right: 24%;
+            top: 22%;
+            width: 830px;
+            height: 20px;
+        }
+    
+        .center{
+            position: relative;
+            align-items: center;
+            /* position: -ms-page; */
+            top: 25%;
+            left: 23.5%;
+            right: 24.5%;
+            width: 830px;
+            height: 500px;
+            transform-origin: 415px 250px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(16, 16, 16);
+            margin: 0px;
+            overflow: hidden;
+            /*will change this to hidden later to deny scolling to user*/
+            white-space: nowrap;
+        
+           }
+}
+
+
+
+
+
+
