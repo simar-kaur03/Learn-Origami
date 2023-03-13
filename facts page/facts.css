@@ -1,0 +1,184 @@
+body{
+    background-size: auto;
+    background-position: center;
+    background-position-y: 3%;
+    background-image: url("img/web background.png") ;
+    background-size: 1920px 1080px;
+}
+
+h1{
+    position: absolute;
+    top: 7%;
+    bottom: 93%;
+    left: 31%;
+    right: 30%;
+    transform-origin: center;
+    text-align: center;
+    color: rgb(18, 18, 215);
+    font-family: fatfrank, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50pt;
+    font-kerning: auto;
+}
+
+button{
+    position: absolute;
+    top: 37%;
+    left:46%;
+    right: 44%;
+    transform-origin: center;
+    background-color: rgb(18, 18, 215);
+    border: none;
+    color: aliceblue;
+    padding: 15px 15px;
+    text-align: center;
+    font-family: rucksack, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* .center{
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+} */
+
+
+
+/* TRY 1 */
+
+
+/* .hidden{
+    display: none;
+} */
+
+#facts{
+    position: absolute;
+    /* transform-origin: center; */
+    left: 35.7%;
+    /* right: 32.6%; */
+    padding-top: 300px;
+}
+
+
+#image{
+    transform-origin: 260 50%;
+    width: 520px;
+}
+
+
+
+
+/* TRY 2 
+ NO CSS REQUIRED */
+
+
+
+
+
+ .navbar a{
+    position: relative;
+    left: 41.5%;
+    right: 41.5%;
+    float: left;
+    text-align: center;
+    font-family: fatfrank, sans-serif;
+    padding: 10px;
+    color: rgb(18, 18, 215);
+    text-decoration: none;
+    font-size: 21px;
+    transition: all 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgb(18, 18, 215);
+    color: aliceblue;
+}
+
+
+
+/* DIFFRENT WINDOW SIZES  */
+
+
+
+
+@media screen and (max-width: 1950px)
+{
+   
+button{
+    position: absolute;
+    top: 28%;
+    left:46%;
+    right: 44%;
+}
+
+#facts{
+    position: absolute;
+    left: 37%;
+}
+
+.navbar a{
+    position: relative;
+    left: 44.5%;
+    right: 43.5%;
+    float: left;
+}
+
+}
+
+
+
+@media screen and (max-width: 1750px)
+{
+    button{
+        position: absolute;
+        top: 41%;
+        left:46%;
+        right: 44%;
+    }
+    
+    #facts{
+        position: absolute;
+        left: 33.9%;
+    }
+
+    
+ .navbar a{
+    position: relative;
+    left: 41.5%;
+    right: 41.5%;
+    float: left;
+}
+
+}
+
+
+
+@media screen and (max-width: 1550px)
+{
+    button{
+        position: absolute;
+        top: 38%;
+        left:46%;
+        right: 44%;
+    }
+    
+    #facts{
+        position: absolute;
+        left: 33.5%;
+    }
+
+    
+ .navbar a{
+    position: relative;
+    left: 41.5%;
+    right: 41.5%;
+    float: left;
+}
+}
