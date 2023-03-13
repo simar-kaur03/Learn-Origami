@@ -1,0 +1,109 @@
+body{
+    background-size: 1920px 1080px;
+    /* width: 1920px;
+    height: 1080px; */
+    background-color: rgb(16, 16, 189);
+    margin: 0%;
+}
+
+h1{
+    position: fixed;
+    padding-top: 200px;
+    /* top: 21.5%; */
+    left: 24%;
+    right: 24%;
+    text-align: center;
+    color: aliceblue;
+    font-family: fatfrank, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60pt;
+    font-kerning: auto;
+}
+
+h3{
+    position: fixed;
+    padding-top: 340px;
+    left: 30%;
+    right: 30%;
+    text-align: center;
+    color: aliceblue;
+    font-family: rucksack, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-kerning: auto;
+
+}
+
+
+.navbar a{
+    position: relative;
+    left: 41.5%;
+    right: 41.5%;
+    float: left;
+    text-align: center;
+    font-family: fatfrank, sans-serif;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 21px;
+    transition: all 0.3s;
+}
+
+.navbar a:hover {
+    background-color: aliceblue;
+    color:  rgb(18, 18, 215);
+    
+}
+
+
+#facts{
+    position: fixed;
+    top: 55%;
+    left: 31%;
+    right: 51.5%;
+    background-color: aliceblue;
+    border: none;
+    color: rgb(18, 18, 215);
+    padding: 15px 15px;
+    text-align: center;
+    font-family: rucksack, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#facts:hover{
+    background-color: rgb(18, 18, 215);
+    color: aliceblue;
+    border: 0.5px solid aliceblue;
+}
+
+#make{
+    position: fixed;
+    top: 55%;
+    left: 51.5%;
+    right: 31%;
+    background-color: aliceblue;
+    border: none;
+    color: rgb(18,18, 215);
+    padding: 15px 15px;
+    text-align: center;
+    font-family: rucksack, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#make:hover{
+    background-color: rgb(18, 18, 215);
+    color: aliceblue;
+    border: 0.5px solid aliceblue;
+}
